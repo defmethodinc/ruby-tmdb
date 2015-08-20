@@ -14,7 +14,7 @@ class Tmdb
   # TODO: Should be refreshed and cached from API 
   CONFIGURATION = DeepOpenStruct.load({ "images" =>
                     { 
-                      "base_url"        => "http://image.tmdb.org/t/p/", 
+                      "base_url"        => "https://image.tmdb.org/t/p/", 
                       "posters_sizes"   => ["w92", "w154", "w185", "w342", "w500", "original"],
                       "backdrops_sizes" => ["w300", "w780", "w1280", "original"],
                       "profiles_sizes"  => ["w45", "w185", "h632", "original"],
@@ -39,7 +39,7 @@ class Tmdb
   end
   
   def self.base_api_url
-    "http://api.themoviedb.org/3"
+    "https://api.themoviedb.org/3"
   end
   
   def self.api_call(method, data, language = nil)
