@@ -7,5 +7,7 @@ gem 'addressable'
 group :development do
   gem 'mocha', :require => false
   gem 'jeweler'
+  gem 'test-unit'
   gem 'webmock'
 end
+
