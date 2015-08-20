@@ -1,6 +1,6 @@
 # ruby-tmdb3
 
-[![Build Status](https://travis-ci.org/Irio/ruby-tmdb.png?branch=master)](https://travis-ci.org/Irio/ruby-tmdb)
+[![Build Status](https://travis-ci.org/defmethodinc/ruby-tmdb.svg)](https://travis-ci.org/defmethodinc/ruby-tmdb)
 
 ruby-tmdb3 is an ActiveRecord-style API wrapper for [TheMovieDB.org (TMDb)](http://www.themoviedb.org/). ruby-tmdb3 uses tmdb's API v3 and is designed to streamline common tasks associated with finding information about movies and cast members.
 
